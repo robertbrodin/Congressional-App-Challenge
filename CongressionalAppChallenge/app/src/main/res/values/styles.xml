@@ -1,0 +1,4 @@
+<resources>
+    <!-- Base application theme. - I edited this b/c it wouldn't work with my pc - Rob -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar"></style>
+</resources>
