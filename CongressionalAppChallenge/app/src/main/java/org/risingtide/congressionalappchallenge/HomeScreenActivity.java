@@ -38,5 +38,10 @@ public class HomeScreenActivity extends AppCompatActivity {
             startActivity(buttonClick);
 
         }
+        else if(button_text.equals("Centers")){
+            Intent buttonClick = new Intent(this,centersActivity.class);
+            startActivity(buttonClick);
+
+        }
     }
 }
