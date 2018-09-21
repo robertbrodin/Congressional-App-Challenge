@@ -55,6 +55,14 @@
             android:layout_centerHorizontal="true"
             android:onClick="testButtonClick"
             android:text="Candidates" />
+        
+                <Button
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="testButtonClick"
+            android:text="Quiz" />
 
 
     </RelativeLayout>
