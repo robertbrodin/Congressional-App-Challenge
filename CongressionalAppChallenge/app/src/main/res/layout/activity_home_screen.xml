@@ -31,6 +31,7 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/register_button"
             android:layout_width="250dp"
             android:layout_height="75dp"
             android:layout_centerHorizontal="true"
@@ -38,6 +39,7 @@
             android:text="Register" />
 
         <Button
+            android:id="@+id/centers_button"
             android:layout_width="150dp"
             android:layout_height="75dp"
             android:layout_marginTop="100dp"
@@ -46,6 +48,7 @@
             android:text="Centers" />
 
         <Button
+            android:id="@+id/candidates_button"
             android:layout_width="170dp"
             android:layout_height="75dp"
             android:layout_marginTop="200dp"
