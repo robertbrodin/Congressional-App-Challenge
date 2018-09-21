@@ -43,5 +43,10 @@ public class HomeScreenActivity extends AppCompatActivity {
             startActivity(buttonClick);
 
         }
+        else if(button_text.equals("Quiz")){
+            Intent buttonClick = new Intent(this,quizActivity.class);
+            startActivity(buttonClick);
+
+        }
     }
 }
