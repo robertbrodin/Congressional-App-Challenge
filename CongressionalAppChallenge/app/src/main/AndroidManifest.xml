@@ -19,6 +19,8 @@
         <activity android:name=".candidatesActivity"></activity>
         <activity android:name=".registerToVote"></activity>
         <activity android:name=".centersActivity"></activity>
+        <activity android:name=".quizActivity"></activity>
+        <activity android:name=".testActivity"></activity>
     </application>
 
 </manifest>
