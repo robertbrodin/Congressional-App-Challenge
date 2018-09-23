@@ -3,9 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android" 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cornflower_blue">
+    android:background="@color/darkBlueTheme">
 
-
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Voting Eligibility Quiz"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"/>
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -20,22 +27,45 @@
         android:text="Are you a U.S Citizen?"
         android:layout_centerHorizontal="true"/>
 
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/radio1">
 
-    <RadioButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginLeft="20dp"
-        android:text="Yes"
-        android:id="@+id/buttonID1"
-        android:onClick="quizCheck"
+            <RadioButton
+                android:id="@+id/radioYes1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="quizCheck"
+                android:text="Yes"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
 
-        />
-    <RadioButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="No"
-        android:layout_marginLeft="100dp"
-        android:onClick="quizCheck"/>
+                />
+
+            <RadioButton
+                android:id="@+id/radioNo1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="quizCheck"
+                android:text="No"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text=""
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:id="@+id/citizenText"/>
 
     </RelativeLayout>
 
@@ -50,23 +80,48 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:text="Are you at least 18 years of age?"
-            android:layout_centerHorizontal="true"/>
-
-
-        <RadioButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="Yes"
-            android:onClick="quizCheck"
-            android:layout_marginLeft="20dp"
-
+            android:layout_centerHorizontal="true"
             />
-        <RadioButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:text="No"
-            android:layout_marginLeft="100dp"
-            android:onClick="quizCheck"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="Yes"
+                android:onClick="quizCheck"
+                android:id="@+id/radioYes2"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+
+                />
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="No"
+                android:id="@+id/radioNo2"
+                android:onClick="quizCheck"
+                android:textColor="@color/white"
+                android:buttonTint="@color/white"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text=""
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:id="@+id/ageText"/>
 
     </RelativeLayout>
 
@@ -74,9 +129,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="Test"
+        android:text="Take the quiz!"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="400dp"
         android:textSize="30sp"
-        android:id="@+id/num17"/>
+        android:id="@+id/num17"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:onClick="testButtonClick"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:text="Home" />
 </RelativeLayout>
