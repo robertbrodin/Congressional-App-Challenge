@@ -3,11 +3,9 @@
 <!-- Used a special colors.xml file from GitHub. We do not own this content. -->
 
 <resources>
-    <color name="blueTheme">#0000ff</color>
-    <color name="darkBlueTheme">#002d5c</color>
-    <color name="redTheme">#870000</color>
-    <color name="grayTheme">#a5a5ab</color>
-    <color name="whiteTheme">#f0f0f0</color>
+    <color name="blueTheme">#27467C</color>
+    <color name="redTheme">#A50020</color>
+    <color name="whiteTheme">#F9F8F4</color>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
