@@ -1,41 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeScreenActivity"
-    android:background="@color/blueTheme">
+    android:background="@color/whiteTheme"
+    android:orientation="vertical"
+    tools:context=".HomeScreenActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Candidates"
-        android:textSize="35dp"
-        android:paddingTop="25dp"
-        android:layout_centerHorizontal="true"
-        android:textColor="@color/white"/>
-
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        >
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
 
+        <TextView
+            android:id="@+id/candidatesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="@string/candidates"
+            android:textColor="@color/redTheme"
+            android:textSize="55sp" />
 
-        <Button
-            android:layout_width="250dp"
-            android:layout_height="75dp"
-            android:onClick="testButtonClick"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="300dp"
-            android:text="Home" />
+        <ImageButton
+            android:id="@+id/bakerPic"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/charliebaker"
+            android:layout_gravity="center_horizontal"
+            tools:src="@drawable/baker" />
 
+        <TextView
+            android:id="@+id/bakerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/charlie_baker"
+            android:paddingBottom="30dp"
+            android:textColor="@color/blueTheme"
+            android:textSize="35sp" />
 
-    </RelativeLayout>
+        <ImageButton
+        android:id="@+id/politoPic"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:contentDescription="@string/karynpolito"
+        android:layout_gravity="center_horizontal"
+        tools:src="@drawable/polito"/>
 
+        <TextView
+            android:id="@+id/politoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/karynpolito"
+            android:textSize="35sp"
+            android:textColor="@color/blueTheme"
+            android:paddingBottom="30dp"/>
 
+        <ImageButton
+            android:id="@+id/gonzalezPic"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/jay_gonzalez"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/gonzalez" />
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/gonzalezText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/jay_gonzalez"
+            android:textSize="35sp"
+            android:textColor="@color/blueTheme"
+            android:paddingBottom="30dp"/>
+
+    </LinearLayout>
+</ScrollView>
