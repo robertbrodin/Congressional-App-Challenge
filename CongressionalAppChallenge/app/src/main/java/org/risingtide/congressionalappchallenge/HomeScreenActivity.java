@@ -30,6 +30,28 @@ public class HomeScreenActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                 item.setChecked(true);
+                Intent i;
+
+                switch(item.getItemId()){
+                    case(R.id.nav_home):
+                        // Changes the activity to the home screen.
+                        i = new Intent(getBaseContext(), HomeScreenActivity.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
+                    case(R.id.nav_register):
+                        // Changes the activity to the register to vote activity.
+                        i = new Intent(getBaseContext(), registerToVote.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
+                    case(R.id.nav_candidates):
+                        i = new Intent(getBaseContext(), candidatesActivity.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
+
+                }
                 drawerLayout.closeDrawers();
 
                 Log.d("TITLE 1", item.getTitle().toString());
@@ -48,7 +70,7 @@ public class HomeScreenActivity extends AppCompatActivity {
         String button_text = ((Button)View).getText().toString(); // filler for now
 
         // It is a lot more difficult to use IDs than text name.
-        if(clickedButtonID == 2131165220) {
+        if(button_text.equals("Candidates")) {
             // If the button matches the target button, it sets the desired screen to the testActivity
             // Then starts that activity.
             Intent buttonClick = new Intent(this,candidatesActivity.class);
