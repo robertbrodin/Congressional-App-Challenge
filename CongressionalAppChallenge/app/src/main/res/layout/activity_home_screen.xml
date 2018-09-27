@@ -40,42 +40,17 @@
                 android:layout_width="250dp"
                 android:layout_height="75dp"
                 android:layout_centerHorizontal="true"
-                android:onClick="testButtonClick"
+                android:onClick="onHomeButtonClick"
                 android:text="Register" />
-
-            <Button
-                android:id="@+id/centers_button"
-                android:layout_width="150dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="100dp"
-                android:layout_centerHorizontal="true"
-                android:onClick="testButtonClick"
-                android:text="Centers" />
 
             <Button
                 android:id="@+id/candidates_button"
                 android:layout_width="170dp"
                 android:layout_height="75dp"
-                android:layout_marginTop="200dp"
+                android:layout_marginTop="100dp"
                 android:layout_centerHorizontal="true"
-                android:onClick="testButtonClick"
+                android:onClick="onHomeButtonClick"
                 android:text="Candidates" />
-
-            <Button
-                android:layout_width="170dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="300dp"
-                android:layout_centerHorizontal="true"
-                android:onClick="testButtonClick"
-                android:text="Quiz" />
-
-            <Button
-                android:layout_width="170dp"
-                android:layout_height="75dp"
-                android:layout_marginTop="400dp"
-                android:layout_centerHorizontal="true"
-                android:onClick="testButtonClick"
-                android:text="Test" />
 
 
 
@@ -88,6 +63,8 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:background="@color/blueTheme"
+        app:itemTextColor="@color/white"
         app:menu="@menu/drawer_view">
     </android.support.design.widget.NavigationView>
 

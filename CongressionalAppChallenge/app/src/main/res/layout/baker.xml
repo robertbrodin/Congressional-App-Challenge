@@ -26,10 +26,10 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/baker"
+            android:src="@mipmap/baker"
             android:layout_gravity="center_horizontal"
             android:paddingTop="40dp"
-            android:contentDescription="@string/bakerpicture"/>
+            android:contentDescription="ISSUE WITH IMAGE SIZE, so I moved the images to mipmap, the resizing is pretty broken..."/>
 
         <TextView
             android:layout_width="wrap_content"
