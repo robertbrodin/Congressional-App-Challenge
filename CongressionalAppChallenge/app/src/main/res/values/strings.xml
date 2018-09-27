@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Congressional App Challenge</string>
+    <string name="candidates">Candidates</string>
+    <string name="charlie_baker">Charlie Baker</string>
+    <string name="karyn_polito">Karyn Polito</string>
+    <string name="jay_gonzalez">Jay Gonzalez</string>
+    <string name="palfrey">Quentin Palfrey</string>
 </resources>
