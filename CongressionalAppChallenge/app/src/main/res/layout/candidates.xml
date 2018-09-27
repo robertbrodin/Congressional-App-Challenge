@@ -6,8 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteTheme"
-    android:orientation="vertical"
-    tools:context=".HomeScreenActivity">
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,13 +23,15 @@
             android:paddingBottom="30dp"
             android:text="@string/candidates"
             android:textColor="@color/redTheme"
-            android:textSize="55sp" />
+            android:textSize="55sp"
+            android:textAllCaps="true"
+            android:textStyle="bold"/>
 
         <ImageButton
             android:id="@+id/bakerPic"
             android:layout_width="220dp"
             android:layout_height="220dp"
-            android:contentDescription="@string/charliebaker"
+            android:contentDescription="@string/charlie_baker"
             android:layout_gravity="center_horizontal"
             tools:src="@drawable/baker" />
 
@@ -42,23 +43,23 @@
             android:text="@string/charlie_baker"
             android:paddingBottom="30dp"
             android:textColor="@color/blueTheme"
-            android:textSize="35sp" />
+            android:textSize="45sp" />
 
         <ImageButton
-        android:id="@+id/politoPic"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        android:contentDescription="@string/karynpolito"
-        android:layout_gravity="center_horizontal"
-        tools:src="@drawable/polito"/>
+            android:id="@+id/politoPic"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/karyn_polito"
+            android:layout_gravity="center_horizontal"
+            tools:src="@drawable/polito"/>
 
         <TextView
             android:id="@+id/politoText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="@string/karynpolito"
-            android:textSize="35sp"
+            android:text="@string/karyn_polito"
+            android:textSize="45sp"
             android:textColor="@color/blueTheme"
             android:paddingBottom="30dp"/>
 
@@ -77,7 +78,26 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:text="@string/jay_gonzalez"
-            android:textSize="35sp"
+            android:textSize="45sp"
+            android:textColor="@color/blueTheme"
+            android:paddingBottom="30dp"/>
+
+        <ImageButton
+            android:id="@+id/palfreyPic"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/palfrey"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/palfrey" />
+
+        <TextView
+            android:id="@+id/palfreyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/palfrey"
+            android:textSize="45sp"
             android:textColor="@color/blueTheme"
             android:paddingBottom="30dp"/>
 
