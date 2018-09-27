@@ -63,43 +63,29 @@ public class HomeScreenActivity extends AppCompatActivity {
     }
 
     // Remember to add new activity to the ANDROID MANIFEST!!!
-    public void testButtonClick(View View)
+    public void onHomeButtonClick(View View)
     {
-        int clickedButtonID = ((Button)View).getId();
-        Log.d("t", Integer.toString(clickedButtonID));
-        String button_text = ((Button)View).getText().toString(); // filler for now
-
         // It is a lot more difficult to use IDs than text name.
-        if(button_text.equals("Candidates")) {
-            // If the button matches the target button, it sets the desired screen to the testActivity
-            // Then starts that activity.
-            Intent buttonClick = new Intent(this,candidatesActivity.class);
-            startActivity(buttonClick);
-        }
-        else if(button_text.equals("Home Button") || button_text.equals("Home")){
-            Intent buttonClick = new Intent(this,HomeScreenActivity.class);
-            startActivity(buttonClick);
+        Intent buttonClick;
+        Log.d("View ID", Integer.toString(View.getId()));
 
-        }
-        else if(button_text.equals("Register")){
-            Intent buttonClick = new Intent(this,registerToVote.class);
-            startActivity(buttonClick);
-
-        }
-        else if(button_text.equals("Centers")){
-            Intent buttonClick = new Intent(this,centersActivity.class);
-            startActivity(buttonClick);
-
-        }
-        else if(button_text.equals("Quiz")){
-            Intent buttonClick = new Intent(this,quizActivity.class);
-            startActivity(buttonClick);
-
-        }
-        else if(button_text.equals("Test")){
-            Intent buttonClick = new Intent(this,testActivity.class);
-            startActivity(buttonClick);
-
+        // Using switch statement to start activity based off of button ID.
+        switch(View.getId()) {
+            case (R.id.register_button):
+                buttonClick = new Intent(this, registerToVote.class);
+                startActivity(buttonClick);
+                break;
+            case (R.id.candidates_button):
+                buttonClick = new Intent(this, candidatesActivity.class);
+                startActivity(buttonClick);
+                break;
+            case(R.id.quiz_button):
+                buttonClick = new Intent(this, quizActivity.class);
+                startActivity(buttonClick);
+                break;
+            case(R.id.home_button):
+                buttonClick = new Intent(this, HomeScreenActivity.class);
+                startActivity(buttonClick);
         }
     }
 }
