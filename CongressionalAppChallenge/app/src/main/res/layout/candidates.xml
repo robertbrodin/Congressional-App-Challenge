@@ -40,7 +40,8 @@
             android:contentDescription="@string/charlie_baker"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitCenter"
-            android:src="@mipmap/baker" />
+            android:src="@mipmap/baker"
+            android:onClick="onClickCandidate"/>
 
         <TextView
             android:id="@+id/bakerText"
@@ -59,7 +60,8 @@
             android:contentDescription="@string/karyn_polito"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitCenter"
-            android:src="@mipmap/polito"/>
+            android:src="@mipmap/polito"
+            android:onClick="onClickCandidate"/>
 
         <TextView
             android:id="@+id/politoText"
