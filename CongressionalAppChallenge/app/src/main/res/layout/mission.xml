@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueTheme"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueThemeTint"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our Mission"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:background="@color/cranberryTheme"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueThemeTint"
+            android:layout_marginTop="75dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To encourage young people to get involved in government and change the image of who can be a software developer."
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navview_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/cranberryTheme"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/drawer_view">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

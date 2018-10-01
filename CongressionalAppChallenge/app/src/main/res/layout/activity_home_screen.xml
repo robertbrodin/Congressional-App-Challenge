@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="80dp"
             android:orientation="vertical">
 
 
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@color/blueThemeTint"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="60dp">
 
             <TextView
                 android:layout_width="match_parent"
@@ -46,12 +46,15 @@
 
             <Button
                 android:id="@+id/register_button"
-                android:layout_width="250dp"
+                android:layout_width="150dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:onClick="onHomeButtonClick"
                 android:text="Register"
+                android:textSize="18sp"
+                android:background="@drawable/buttonstyle"
+                android:textColor="@color/white"
                 android:layout_marginBottom="20dp"/>
 
 </LinearLayout>
@@ -63,16 +66,16 @@
                 android:background="@color/blueThemeTint"
                 android:layout_marginTop="250dp">
             <TextView
-                android:paddingLeft="10dp"
+                android:paddingStart="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingTop="20dp"
                 android:textColor="@color/white"
                 android:gravity="center"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:layout_marginTop="0dp"
                 android:text="Click here to learn about who is running for election in Massachusetts!"
-></TextView>
+/>
             <Button
                 android:id="@+id/candidates_button"
                 android:layout_width="170dp"
@@ -81,6 +84,9 @@
                 android:layout_gravity="center"
                 android:onClick="onHomeButtonClick"
                 android:text="Candidates"
+                android:background="@drawable/buttonstyle"
+                android:textColor="@color/white"
+                android:textSize="18sp"
                 android:layout_marginBottom="20dp"/>
 
             </LinearLayout>
@@ -97,19 +103,58 @@
             android:layout_marginTop="20dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp">
-        <TextView
-            android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/redrectangle"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:text="Voter Registration!"
+                    android:textColor="#fff"
+                     />
+
+                    </LinearLayout>
+            <TextView
+                android:id="@+id/titleDescriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="Do your civic duty and vote!"
+                android:textColor="#fff"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:text="Voter Registration!"
-            android:textColor="#fff"
-            android:shadowColor="#000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="1.5"
-             />
+            android:background="@color/blueThemeTint"
+            android:layout_marginTop="525dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/cranberryTheme"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:text="Tip: Swipe from the left of the screen for easy navigation!"
+                android:gravity="center"/>
 
         </LinearLayout>
 

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/drawer_layout_quiz">
+    android:id="@+id/drawer_layout">
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android" 
@@ -12,29 +12,62 @@
     android:layout_height="match_parent"
     android:background="@color/blueTheme">
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:text="Voting Eligibility Quiz"
-        android:layout_centerHorizontal="true"
-        android:textSize="25sp"
-        android:layout_marginTop="25dp"/>
+        android:gravity="center"
+        android:background="@color/blueThemeTint"
+        android:layout_marginTop="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@color/cranberryTheme"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voting Eligility Quiz"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="100dp"
+        android:background="@color/blueThemeTint"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+
+
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/cranberryTheme"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
         android:textColor="@color/white"
         android:text="Are you a U.S Citizen?"
         android:layout_centerHorizontal="true"/>
 
         <RadioGroup
+            android:layout_marginLeft="30dp"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -80,12 +113,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp">
+        android:layout_marginTop="250dp"
+        android:background="@color/blueThemeTint"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:textColor="@color/white"
+            android:background="@color/cranberryTheme"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
             android:text="Are you at least 18 years of age?"
             android:layout_centerHorizontal="true"
             />
@@ -99,6 +139,7 @@
             android:gravity="center">
 
             <RadioButton
+                android:layout_marginLeft="30dp"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:text="Yes"
@@ -147,17 +188,19 @@
         android:layout_height="75dp"
         android:onClick="onHomeButtonClick"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="450dp"
         android:id="@+id/home_button"
+        android:background="@drawable/buttonstyle"
+        android:textColor="@color/white"
         android:text="Home" />
 </RelativeLayout>
 
     <android.support.design.widget.NavigationView
-        android:id="@+id/navview_quiz"
+        android:id="@+id/navview_home"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/redTheme"
+        android:background="@color/cranberryTheme"
         app:itemTextColor="@color/white"
         app:menu="@menu/drawer_view">
     </android.support.design.widget.NavigationView>

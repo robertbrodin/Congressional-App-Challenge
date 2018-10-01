@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:id="@+id/drawer_layout_candidates">
+    android:id="@+id/drawer_layout">
 
 <ScrollView
     android:layout_width="match_parent"
@@ -115,11 +115,11 @@
 </ScrollView>
 
     <android.support.design.widget.NavigationView
-        android:id="@+id/navview_candidates"
+        android:id="@+id/navview_home"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/blueTheme"
+        android:background="@color/cranberryTheme"
         app:itemTextColor="@color/white"
         app:menu="@menu/drawer_view">
     </android.support.design.widget.NavigationView>
