@@ -31,6 +31,15 @@
         android:layout_marginTop="50dp"
         >
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:text="Not sure if you're eligible to vote? Take the voter eligibility quiz!"/>
+
         <Button
             android:layout_width="170dp"
             android:layout_height="75dp"
@@ -38,17 +47,26 @@
             android:layout_centerHorizontal="true"
             android:onClick="onHomeButtonClick"
             android:id="@+id/quiz_button"
-            android:text="Quiz" />
+            android:text="Click here!" />
 
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="240dp"
+            android:text="Know that you're eligible? Click the button to register now!"
+            ></TextView>
         <Button
             android:layout_width="250dp"
             android:layout_height="75dp"
             android:onClick="onHomeButtonClick"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="300dp"
-            android:id="@+id/home_button"
-            android:text="Home" />
+            android:id="@+id/link_to_web"
+            android:text="Register!" />
 
 
     </RelativeLayout>
