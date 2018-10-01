@@ -1,5 +1,6 @@
 package org.risingtide.congressionalappchallenge;
 
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,8 @@ import android.view.View;
 import android.widget.Button;
 import android.content.Intent;
 import android.support.v4.widget.DrawerLayout;
+
+import java.net.URL;
 
 
 public class HomeScreenActivity extends AppCompatActivity {
@@ -86,6 +89,11 @@ public class HomeScreenActivity extends AppCompatActivity {
             case(R.id.home_button):
                 buttonClick = new Intent(this, HomeScreenActivity.class);
                 startActivity(buttonClick);
+                break;
+            case(R.id.link_to_web):
+                // Sends user to the website
+                Intent myIntent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.sec.state.ma.us/ovr/"));
+                startActivity(myIntent);
         }
     }
 }
