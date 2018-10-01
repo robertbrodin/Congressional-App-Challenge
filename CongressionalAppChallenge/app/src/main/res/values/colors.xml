@@ -3,7 +3,10 @@
 <!-- Used a special colors.xml file from GitHub. We do not own this content. -->
 
 <resources>
-    <color name="blueTheme">#27467C</color>
+    <color name="blueTheme">#2F4154</color>
+    <color name="cranberryTheme">#A34646</color>
+    <color name="blueThemeTint">#384E64</color>
+    <color name="lightBlueTheme">#81C5E0</color>
     <color name="redTheme">#A50020</color>
     <color name="whiteTheme">#F9F8F4</color>
     <color name="colorPrimary">#3F51B5</color>
