@@ -21,6 +21,7 @@
         <activity android:name=".quizActivity"></activity>
         <activity android:name=".bakerActivity"></activity>
         <activity android:name=".individualCandidates"></activity>
+        <activity android:name=".missionActivity"></activity>
     </application>
 
 </manifest>
