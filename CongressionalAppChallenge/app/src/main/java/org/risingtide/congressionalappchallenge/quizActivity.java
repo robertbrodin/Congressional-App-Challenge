@@ -23,10 +23,10 @@ public class quizActivity extends HomeScreenActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.quiz);
 
-        drawerLayout = findViewById(R.id.drawer_layout_quiz);
+        drawerLayout = findViewById(R.id.drawer_layout);
 
 
-        NavigationView navigationView = findViewById(R.id.navview_quiz);
+        NavigationView navigationView = findViewById(R.id.navview_home);
         // Event listener is used to check when a nav item is clicked.
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -50,6 +50,11 @@ public class quizActivity extends HomeScreenActivity{
                         break;
                     case(R.id.nav_candidates):
                         i = new Intent(getBaseContext(), candidatesActivity.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
+                    case(R.id.nav_mission):
+                        i = new Intent(getBaseContext(), missionActivity.class);
                         startActivity(i);
                         item.setChecked(false);
                         break;

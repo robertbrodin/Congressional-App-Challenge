@@ -17,9 +17,9 @@ public class registerToVote extends HomeScreenActivity{
         setContentView(R.layout.register_vote);
 
 
-        drawerLayout = findViewById(R.id.drawer_layout_register);
+        drawerLayout = findViewById(R.id.drawer_layout);
 
-        NavigationView navigationView = findViewById(R.id.navview_home_register);
+        NavigationView navigationView = findViewById(R.id.navview_home);
         // Event listener is used to check when a nav item is clicked.
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -43,6 +43,11 @@ public class registerToVote extends HomeScreenActivity{
                         break;
                     case(R.id.nav_candidates):
                         i = new Intent(getBaseContext(), candidatesActivity.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
+                    case(R.id.nav_mission):
+                        i = new Intent(getBaseContext(), missionActivity.class);
                         startActivity(i);
                         item.setChecked(false);
                         break;

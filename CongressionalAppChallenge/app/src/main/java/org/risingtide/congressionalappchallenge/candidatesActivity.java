@@ -17,10 +17,11 @@ public class candidatesActivity extends HomeScreenActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.candidates);
 
-        drawerLayout = findViewById(R.id.drawer_layout_candidates);
+
+        drawerLayout = findViewById(R.id.drawer_layout);
 
 
-        NavigationView navigationView = findViewById(R.id.navview_candidates);
+        NavigationView navigationView = findViewById(R.id.navview_home);
         // Event listener is used to check when a nav item is clicked.
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -56,6 +57,7 @@ public class candidatesActivity extends HomeScreenActivity{
                 return true;
             }
         });
+
     }
     public void testCandidate(String candidateName){
 

@@ -53,6 +53,11 @@ public class HomeScreenActivity extends AppCompatActivity {
                         startActivity(i);
                         item.setChecked(false);
                         break;
+                    case(R.id.nav_mission):
+                        i = new Intent(getBaseContext(), missionActivity.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
 
                 }
                 drawerLayout.closeDrawers();
