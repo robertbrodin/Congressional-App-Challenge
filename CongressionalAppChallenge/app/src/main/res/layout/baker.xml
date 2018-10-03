@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/drawer_layout">
+    android:id="@+id/drawer_layout_baker">
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/whiteTheme"
@@ -16,6 +17,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal">
 
@@ -29,30 +32,80 @@
             android:textSize="55sp"/>
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
             android:src="@mipmap/baker"
             android:layout_gravity="center_horizontal"
             android:paddingTop="40dp"
-            android:contentDescription="ISSUE WITH IMAGE SIZE, so I moved the images to mipmap, the resizing is pretty broken..."/>
+            android:contentDescription="@string/bakerpic"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="30dp"
             android:layout_gravity="center_horizontal"
-            android:text=""/>
+            android:textSize='15sp'
+            android:text="@string/bakerprofile1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='15sp'
+            android:text="@string/bakerprofile2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='15sp'
+            android:text="@string/bakerprofile3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='15sp'
+            android:text="@string/bakerprofile4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='15sp'
+            android:text="@string/bakerprofile5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='15sp'
+            android:text="@string/bakercitation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='15sp'
+            android:text="@string/bakermoreinfo"/>
 
     </LinearLayout>
 </ScrollView>
 
-<android.support.design.widget.NavigationView
-android:id="@+id/navview_home"
-android:layout_width="wrap_content"
-android:layout_height="match_parent"
-android:layout_gravity="start"
-android:background="@color/cranberryTheme"
-app:itemTextColor="@color/white"
-app:menu="@menu/drawer_view">
-</android.support.design.widget.NavigationView>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navview_candidates"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/blueTheme"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/drawer_view">
+    </android.support.design.widget.NavigationView>
 
-    </android.support.v4.widget.DrawerLayout>
+</android.support.v4.widget.DrawerLayout>
