@@ -17,101 +17,186 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingStart="30dp"
-        android:paddingEnd="30dp"
         android:orientation="vertical"
-        android:layout_gravity="center_horizontal">
+        android:background="@color/blueTheme">
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/charlie_baker"
-            android:textColor="@color/redTheme"
-            android:textStyle="bold"
-            android:textSize="55sp"/>
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:background="@color/blueThemeTint">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cranberryTheme">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/charlie_baker"
+                    android:textColor="@color/white"
+                    android:textSize="55sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="For Governer - Republican"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cranberryTheme"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/blueThemeTint">
 
         <ImageView
-            android:layout_width="300dp"
+            android:layout_width="match_parent"
             android:layout_height="300dp"
             android:src="@mipmap/baker"
-            android:layout_gravity="center_horizontal"
-            android:paddingTop="40dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
             android:contentDescription="@string/bakerpic"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="30dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakerprofile1"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakerprofile2"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakerprofile3"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakerprofile4"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakerprofile5"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakercitation"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize='15sp'
+            android:gravity="center"
+            android:textSize='20sp'
+            android:textColor="@color/white"
             android:text="@string/bakermoreinfo"/>
-        
-                <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/ltgovernor"
-            android:textColor="@color/blueTheme"
-            android:textStyle="bold"
-            android:textSize="55sp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/karyn_polito"
-            android:textColor="@color/blueTheme"
-            android:textStyle="bold"
-            android:textSize="55sp"/>
+            android:background="@color/blueThemeTint"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cranberryTheme">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/karyn_polito"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="For Lieutenant Governer - Republican"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cranberryTheme"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueThemeTint"
+            android:orientation="vertical">
 
         <ImageView
             android:layout_width="300dp"
@@ -125,7 +210,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:textSize='20sp'
             android:textColor="@color/whiteTheme"
             android:text="@string/politoprofile1"/>
@@ -134,7 +219,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:textSize='20sp'
             android:textColor="@color/whiteTheme"
             android:text="@string/politoprofile2"/>
@@ -143,7 +228,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:textSize='20sp'
             android:textColor="@color/whiteTheme"
             android:text="@string/politoprofile3"/>
@@ -152,7 +237,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:textSize='20sp'
             android:textColor="@color/whiteTheme"
             android:text="@string/politoprofile4"/>
@@ -161,20 +246,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="20dp"
-            android:layout_gravity="center_horizontal"
+            android:gravity="center"
             android:textSize='20sp'
             android:textColor="@color/whiteTheme"
             android:text="@string/politomoreinfo"/>
+        </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
 
     <android.support.design.widget.NavigationView
-        android:id="@+id/navview_candidates"
+        android:id="@+id/navview_home"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/blueTheme"
+        android:background="@color/cranberryTheme"
         app:itemTextColor="@color/white"
         app:menu="@menu/drawer_view">
     </android.support.design.widget.NavigationView>

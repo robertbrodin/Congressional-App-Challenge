@@ -12,6 +12,11 @@
         android:background="@color/blueTheme"
         >
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,6 +34,7 @@
                 android:background="@color/cranberryTheme"
                 android:textColor="@color/white"
                 android:gravity="center"
+                android:textStyle="bold"
                 android:textSize="30sp"/>
 
         </LinearLayout>
@@ -38,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/blueThemeTint"
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="15dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp">
 
@@ -53,13 +59,24 @@
         </LinearLayout>
 
 
-
-        <ImageView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/grouppic"
-            android:layout_marginTop="300dp"/>
+            android:layout_marginTop="20dp"
+            android:background="@color/blueThemeTint"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/grouppic"
+                android:scaleType="centerInside"
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
 
     </RelativeLayout>
 
