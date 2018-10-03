@@ -11,27 +11,51 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/whiteTheme"
+    android:background="@color/blueTheme"
     android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/candidatesText"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:paddingTop="30dp"
-            android:paddingBottom="30dp"
-            android:text="@string/candidates"
-            android:textColor="@color/redTheme"
-            android:textSize="55sp"
-            android:textAllCaps="true"
-            android:textStyle="bold"/>
+            android:gravity="center"
+            android:background="@color/blueThemeTint"
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/cranberryTheme"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Candidates"
+                    android:textSize="35dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/redThemeTint"
+            android:layout_marginTop="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
 
         <ImageButton
             android:id="@+id/bakerPic"
@@ -50,28 +74,18 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/charlie_baker"
             android:paddingBottom="30dp"
-            android:textColor="@color/blueTheme"
+            android:textColor="@color/white"
             android:textSize="45sp" />
 
-        <ImageButton
-            android:id="@+id/politoPic"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
-            android:contentDescription="@string/karyn_polito"
-            android:layout_gravity="center_horizontal"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/polito"
-            android:onClick="onClickCandidate"/>
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/politoText"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/karyn_polito"
-            android:textSize="45sp"
-            android:textColor="@color/blueTheme"
-            android:paddingBottom="30dp"/>
+            android:orientation="vertical"
+            android:background="@color/lightBlueTheme"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
 
         <ImageButton
             android:id="@+id/gonzalezPic"
@@ -89,27 +103,11 @@
             android:layout_gravity="center_horizontal"
             android:text="@string/jay_gonzalez"
             android:textSize="45sp"
-            android:textColor="@color/blueTheme"
+            android:textColor="@color/white"
             android:paddingBottom="30dp"/>
 
-        <ImageButton
-            android:id="@+id/palfreyPic"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/palfrey"
-            android:scaleType="fitCenter"
-            android:src="@mipmap/palfrey" />
+        </LinearLayout>
 
-        <TextView
-            android:id="@+id/palfreyText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="@string/palfrey"
-            android:textSize="45sp"
-            android:textColor="@color/blueTheme"
-            android:paddingBottom="30dp"/>
 
     </LinearLayout>
 </ScrollView>
