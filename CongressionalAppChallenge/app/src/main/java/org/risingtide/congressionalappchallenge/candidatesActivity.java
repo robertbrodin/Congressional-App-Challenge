@@ -48,6 +48,12 @@ public class candidatesActivity extends HomeScreenActivity{
                         startActivity(i);
                         item.setChecked(false);
                         break;
+                    case(R.id.nav_mission):
+                        i = new Intent(getBaseContext(), missionActivity.class);
+                        startActivity(i);
+                        item.setChecked(false);
+                        break;
+
 
                 }
                 drawerLayout.closeDrawers();
@@ -64,7 +70,7 @@ public class candidatesActivity extends HomeScreenActivity{
         // Can change to the actual string file for candidates...
         switch(candidateName) {
             case("baker"):
-                setContentView(R.layout.baker);
+                setContentView(R.layout.baker_polito);
                 break;
             case("other"):
                 setContentView(R.layout.test_candidate);
@@ -81,11 +87,17 @@ public class candidatesActivity extends HomeScreenActivity{
             // Baker
             case(R.id.bakerPic):
                 // Sets fileToLoad(static) to the layout that is the app is going to switch to.
-                individualCandidates.fileToLoad = R.layout.baker;
+                individualCandidates.fileToLoad = R.layout.baker_polito;
                 switchScreen = new Intent(this, individualCandidates.class);
                 startActivity(switchScreen);
                 break;
-        }
+            case(R.id.gonzalezPic):
+        // Sets fileToLoad(static) to the layout that is the app is going to switch to.
+                individualCandidates.fileToLoad = R.layout.gonzalez_palfrey;
+                switchScreen = new Intent(this, individualCandidates.class);
+                startActivity(switchScreen);
+                break;
+    }
 
     }
 
