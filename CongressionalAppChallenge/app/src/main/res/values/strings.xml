@@ -5,4 +5,15 @@
     <string name="karyn_polito">Karyn Polito</string>
     <string name="jay_gonzalez">Jay Gonzalez</string>
     <string name="palfrey">Quentin Palfrey</string>
+    <string name="bakerpic">bakerPic</string>
+    <string name="bakerprofile1"> \“Since his election as the 72nd Governor of Massachusetts in 2014, Charlie Baker has been committed to delivering bipartisan, commonsense, results-oriented leadership that has made the Commonwealth’s economy, communities, schools and families stronger than ever.\” </string>
+    <string name="bakerprofile2"> \"Governor Baker, Lt. Governor Polito and their team on Beacon Hill are working hard to restore taxpayers’ and local leaders’ faith and trust in a government that works harder, smarter and more efficiently to support the people of Massachusetts, holding the line on new taxes and delivering tax relief for working families and small businesses.\" </string>
+    <string name="bakerprofile3"> \"Today, the Commonwealth leads the nation in educational achievement, supported by historic investments in public education, local aid, and skill-building to strengthen a highly talented workforce. In Massachusetts, over 150,000 new jobs have been created in the last three years, the number of people working is at an all-time high and incomes are on the rise across the board. Governor Baker has been recognized as a national leader in the battle against the opioid epidemic, with nearly every state in the nation embracing Massachusetts’ landmark approach to increasing substance misuse awareness, education, treatment and prevention.\" </string>
+    <string name="bakerprofile4"> \"Raised in Needham, Charlie attended Massachusetts public schools and graduated from Harvard College. He met his wife, Lauren, while earning a Master of Business Administration from the Kellogg Graduate School of Management at Northwestern University.\"</string>
+    <string name="bakerprofile5"> \"Lauren Baker has dedicated her tenure as First Lady to her passion for children by expanding the impact of Wonderfund, a nonprofit supporting positive experiences for the Commonwealth’s most vulnerable kids under the care of the state’s Department of Children and Families.\"</string>
+    <string name="bakercitation">Information used can be found on the official website of Charlie Baker </string>
+    <string name="bakermoreinfo">For more information on Charlie Baker, visit https://www.charliebakerma.com/ </string>
+    <string name="voter_registration">Voter Registration</string>
+    <string name="register">Register</string>
+    <string name="candidates">Candidates</string>
 </resources>
