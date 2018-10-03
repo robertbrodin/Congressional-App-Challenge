@@ -94,6 +94,77 @@
             android:layout_gravity="center_horizontal"
             android:textSize='15sp'
             android:text="@string/bakermoreinfo"/>
+        
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/ltgovernor"
+            android:textColor="@color/blueTheme"
+            android:textStyle="bold"
+            android:textSize="55sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/karyn_polito"
+            android:textColor="@color/blueTheme"
+            android:textStyle="bold"
+            android:textSize="55sp"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@mipmap/polito"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="40dp"
+            android:contentDescription="@string/karyn_polito"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='20sp'
+            android:textColor="@color/whiteTheme"
+            android:text="@string/politoprofile1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='20sp'
+            android:textColor="@color/whiteTheme"
+            android:text="@string/politoprofile2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='20sp'
+            android:textColor="@color/whiteTheme"
+            android:text="@string/politoprofile3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='20sp'
+            android:textColor="@color/whiteTheme"
+            android:text="@string/politoprofile4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize='20sp'
+            android:textColor="@color/whiteTheme"
+            android:text="@string/politomoreinfo"/>
 
     </LinearLayout>
 </ScrollView>
