@@ -85,11 +85,6 @@ public class candidatesActivity extends HomeScreenActivity{
                 switchScreen = new Intent(this, individualCandidates.class);
                 startActivity(switchScreen);
                 break;
-            case(R.id.politoPic):
-                individualCandidates.fileToLoad = R.layout.test_candidate;
-                switchScreen = new Intent(this, individualCandidates.class);
-                startActivity(switchScreen);
-                break;
         }
 
     }
