@@ -233,7 +233,7 @@
                         android:contentDescription="@string/elizabeth_warren"
                         android:layout_gravity="center_horizontal"
                         android:scaleType="fitCenter"
-                        android:src="@mipmap/baker"
+                        android:src="@mipmap/warren"
                         android:onClick="onClickCandidate"
                         android:layout_marginTop="15dp"/>
 
@@ -272,9 +272,9 @@
                         android:layout_width="220dp"
                         android:layout_height="220dp"
                         android:layout_gravity="center_horizontal"
-                        android:contentDescription="@string/jay_gonzalez"
+                        android:contentDescription="Geoff Diehl"
                         android:scaleType="fitCenter"
-                        android:src="@mipmap/gonzalez"
+                        android:src="@mipmap/Diehl"
                         android:layout_marginTop="15dp"/>
 
                     <TextView
@@ -282,7 +282,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:text="@string/jay_gonzalez"
+                        android:text="Geoff Diehl"
                         android:textSize="45sp"
                         android:textColor="@color/white"
                         android:paddingBottom="30dp"/>
