@@ -97,6 +97,11 @@ public class candidatesActivity extends HomeScreenActivity{
                 switchScreen = new Intent(this, individualCandidates.class);
                 startActivity(switchScreen);
                 break;
+            case(R.id.ballotButton):
+                individualCandidates.fileToLoad = R.layout.ballot_questions;
+                switchScreen = new Intent(this, individualCandidates.class);
+                startActivity(switchScreen);
+                break;
     }
 
     }
