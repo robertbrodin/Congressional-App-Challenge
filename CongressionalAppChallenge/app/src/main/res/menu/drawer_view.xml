@@ -3,19 +3,18 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home2"
             android:title="Home" />
         <item
-            android:id="@+id/nav_register"
-            android:icon="@mipmap/outline_how_to_vote_white_18"
-            android:title="Register to Vote" />
+            android:id="@+id/nav_members"
+            android:title="Current Office Members" />
         <item
-            android:id="@+id/nav_candidates"
-            android:icon="@drawable/outline_portrait_white_18"
-            android:title="Candidates" />
+            android:id="@+id/nav_updateinfo"
+            android:title="Update Information" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
         <item
             android:id="@+id/nav_mission"
-            android:icon="@drawable/outline_account_balance_white_18"
             android:title="Our Mission" />
     </group>
 </menu>

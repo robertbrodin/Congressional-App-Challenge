@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/votelogo_round"
-        android:label="Register to Vote!"
-        android:roundIcon="@mipmap/votelogo_round"
+        android:icon="@mipmap/eagle"
+        android:label="Voter Registration"
+        android:roundIcon="@mipmap/eagle_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".HomeScreenActivity">
@@ -18,10 +18,9 @@
         </activity>
         <activity android:name=".candidatesActivity"></activity>
         <activity android:name=".registerToVote"></activity>
+        <activity android:name=".centersActivity"></activity>
         <activity android:name=".quizActivity"></activity>
-        <activity android:name=".bakerActivity"></activity>
-        <activity android:name=".individualCandidates"></activity>
-        <activity android:name=".missionActivity"></activity>
+        <activity android:name=".testActivity"></activity>
     </application>
 
 </manifest>
