@@ -32,13 +32,13 @@
                     android:layout_marginBottom="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/lightBlueTheme">
+                    android:background="@color/purpleTheme">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="@string/jay_gonzalez"
+                        android:text="Shiva Ayyadurai"
                         android:textColor="@color/white"
                         android:textSize="55sp"
                         android:textStyle="bold" />
@@ -49,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="For Governer - Democrat"
+                    android:text="For Senate - Independent"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -59,7 +59,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/lightBlueTheme"
+                android:background="@color/purpleTheme"
                 android:orientation="vertical"
                 android:layout_marginTop="10dp"
                 android:paddingTop="10dp"
@@ -74,10 +74,10 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="300dp"
-                        android:src="@mipmap/gonzalez"
+                        android:src="@mipmap/ayyadurai"
                         android:gravity="center"
                         android:paddingTop="20dp"
-                        android:contentDescription="@string/bakerpic"/>
+                        android:contentDescription="ayyaduraipic"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -86,7 +86,7 @@
                         android:gravity="center"
                         android:textSize='20sp'
                         android:textColor="@color/white"
-                        android:text="@string/gonzalezprofile1"/>
+                        android:text="@string/ayyaduraprofile1"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,16 +95,7 @@
                         android:gravity="center"
                         android:textSize='20sp'
                         android:textColor="@color/white"
-                        android:text="@string/gonzalezprofile2"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="20dp"
-                        android:gravity="center"
-                        android:textSize='20sp'
-                        android:textColor="@color/white"
-                        android:text="@string/gonzalezprofile3"/>
+                        android:text="@string/ayyaduraprofile2"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -113,71 +104,16 @@
                         android:gravity="center"
                         android:textSize='20sp'
                         android:textColor="@color/white"
-                        android:text="@string/gonzalezmoreinfo"/>
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/blueThemeTint"
-                android:orientation="vertical"
-                android:layout_marginTop="15dp"
-                android:paddingBottom="10dp">
-
-                <LinearLayout
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/lightBlueTheme">
+                        android:text="@string/ayyaduraprofile3"/>
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
                         android:gravity="center"
-                        android:text="@string/palfrey"
+                        android:textSize='20sp'
                         android:textColor="@color/white"
-                        android:textSize="30sp"
-                        android:textStyle="bold" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="For Lieutenant Governer - Democrat"
-                    android:textColor="@color/white"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/lightBlueTheme"
-                android:layout_marginTop="20dp"
-                android:paddingTop="10dp"
-                android:paddingBottom="10dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@color/blueThemeTint"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="300dp"
-                        android:layout_height="300dp"
-                        android:src="@mipmap/palfrey"
-                        android:layout_gravity="center_horizontal"
-                        android:paddingTop="40dp"
-                        android:contentDescription="@string/palfrey"/>
+                        android:text="@string/ayyaduraprofile4"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -185,8 +121,8 @@
                         android:paddingTop="20dp"
                         android:gravity="center"
                         android:textSize='20sp'
-                        android:textColor="@color/whiteTheme"
-                        android:text="@string/palfreyprofile1"/>
+                        android:textColor="@color/white"
+                        android:text="@string/ayyaduraprofile5"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -194,8 +130,16 @@
                         android:paddingTop="20dp"
                         android:gravity="center"
                         android:textSize='20sp'
-                        android:textColor="@color/whiteTheme"
-                        android:text="@string/palfreyprofile2"/>
+                        android:textColor="@color/white"
+                        android:text="@string/diehlprofile6"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:gravity="center"
+                        android:textSize='20sp'
+                        android:textColor="@color/white"
+                        android:text="@string/diehlprofile7"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -203,26 +147,9 @@
                         android:paddingTop="20dp"
                         android:gravity="center"
                         android:textSize='20sp'
-                        android:textColor="@color/whiteTheme"
-                        android:text="@string/palfreyprofile3"/>
+                        android:textColor="@color/white"
+                        android:text="@string/diehlmoreinfo"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="20dp"
-                        android:gravity="center"
-                        android:textSize='20sp'
-                        android:textColor="@color/whiteTheme"
-                        android:text="@string/palfreyprofile4"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:paddingTop="20dp"
-                        android:gravity="center"
-                        android:textSize='20sp'
-                        android:textColor="@color/whiteTheme"
-                        android:text="@string/palfreymoreinfo"/>
                 </LinearLayout>
 
             </LinearLayout>

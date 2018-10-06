@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blueTheme"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blueThemeTint"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 2"
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:background="@color/cranberryTheme"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="30sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blueThemeTint"
+                android:layout_marginTop="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This proposed law would limit how many patients could be assigned to each registered nurse in Massachusetts hospitals and certain other health care facilities."
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blueThemeTint"
+                android:layout_marginTop="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This proposed law would create a citizens commission to consider and recommend potential amendments to the United States Constitution to establish that corporations do not have the same Constitutional rights as human beings and that campaign contributions and expenditures may be regulated."
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blueThemeTint"
+                android:layout_marginTop="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This law adds gender identity to the list of prohibited grounds for discrimination in places of public accommodation, resort, or amusement. Such grounds also include race, color, religious creed, national origin, sex, disability, and ancestry."
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navview_home"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/cranberryTheme"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/drawer_view">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
