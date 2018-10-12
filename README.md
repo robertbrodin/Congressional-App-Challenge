@@ -1,4 +1,4 @@
-# appchallenge
+# Congressional App Challenge Submission
 
 This is an app challenge! We currently have some code. Hoooorayyyy
 <?xml version="1.0" encoding="utf-8"?>
