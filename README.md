@@ -23,3 +23,5 @@ This is an app challenge! We currently have some code. Hoooorayyyy
 </android.support.constraint.ConstraintLayout>
 
 #FreeRealEstate
+
+# Final Build on October 12th,  2018. Rising Tide ART
