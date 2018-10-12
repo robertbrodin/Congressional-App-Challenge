@@ -20,7 +20,11 @@
         <activity android:name=".registerToVote"></activity>
         <activity android:name=".centersActivity"></activity>
         <activity android:name=".quizActivity"></activity>
-        <activity android:name=".testActivity"></activity>
+        <activity android:name=".individualCandidates"></activity>
+        <activity android:name=".missionActivity"></activity>
+        <activity android:name=".ballotQuestions"></activity>
+
+
     </application>
 
 </manifest>
